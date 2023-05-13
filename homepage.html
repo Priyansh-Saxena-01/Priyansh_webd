@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="homepage_style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <title>Encryptozz</title>
+  </head>
+  <body>
+    <header>
+      <!-- Navbar -->
+      <nav id="navbar">
+        <div class="container">
+          <h1><a href="#">Encryptozz</a></h1>
+          <ul>
+            <li><a href="index.html" class="current">Home</a></li>
+            <li><a href="login page.html">Login</a></li>
+            <li><a href="register page.html">Register</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Showcase Area -->
+      <div id="showcase">
+        <div class="container">
+          <div class="showcase-content">
+            <h2>Passwords!! A mess to handle</h2>
+            <p class="lead">
+              Encryption scrambles your password so it's unreadable and/or unusable by hackers. That simple step protects your password while it's sitting in a server, and it offers more protection as your password zooms across the internet.Imagine that you've created the strongest password possible. Now, imagine that all of your hard work is stored in plain text on your company's server. If a hacker gets inside, what happens next? All of your efforts go to waste, and your username and password are sold on the open market to the highest bidder.
+            </p>
+            <a href="#" class="btn">Read More</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about">
+      <div class="container">
+        <h3 class="bg-dark-line"><span>How does encryption works ?</span></h3>
+        <p class="lead">
+          Most search engines, regardless of if they track you, encrypt your search data. This is how search engines, including Google, Yahoo and Search Encrypt, all protect their users’ information. Google, which collects tons of user data, is obligated to protect that information. SSL encryption is a standard for protecting sensitive information, for search engines and other websites.
+        <p class="lead">
+          Encryption is a process that encodes a message or file so that it can be only be read by certain people. Encryption uses an algorithm to scramble, or encrypt, data and then uses a key for the receiving party to unscramble, or decrypt, the information. The message contained in an encrypted message is referred to as plaintext. In its encrypted, unreadable form it is referred to as ciphertext.Basic forms of encryption may be as simple as switching letters. As cryptography advanced, cryptographers added more steps, and decryption became more difficult. Wheels and gears would be combined to create complex encryption systems. Computer algorithms have now replaced mechanical encryption.
+        </p>
+      </div>
+    </section>
+    <!-- Our Services -->
+    <div id="services">
+      <div class="container">
+        <h3 class="bg-dark-line"><span>Features</span></h3>
+        <div class="box bg-primary">
+          <h2>Encryption key</h2>
+          <i class="fa-solid fa-key fa-4x"></i>
+          <p class="lead">
+            In cryptography, an encryption key is a variable value that is applied using an algorithm to a string or block of unencrypted text to produce encrypted text or to decrypt encrypted text. The length of the key is a factor in considering how difficult it will be to decrypt the text in a given message.       
+          </p>
+        </div>
+        <div class="box light-gray">
+          <h2>hashing</h2>
+          <i class="fa-solid fa-hashtag fa-4x"></i>
+          <p class="lead">
+            Cryptography Hash functions are extremely useful and appear in almost all information security applications.It is a mathematical function that converts a numerical input value into another compressed numerical value. The input to the hash function is of arbitrary length but output is always of fixed length.
+          </p>
+        </div>
+        <div class="box bg-primary">
+          <h2>Decryption</h2>
+          <i class="fa-solid fa-lock-open fa-4x"></i>
+          <p class="lead">
+            Decryption is a process that invert the entire encryption process. With the help of this process, the encrypted message is once again brought back to its real form. In this the receiver uses a decryption algorithm and a key to convert the ciphertext back to the original plaintext, a process called deciphering.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!-- Authors -->
+    <div id="authors">
+      <div class="container">
+        <h3><span>Should know</span></h3>
+        <div class="auth">
+          <img src="3.jpg" alt="" />
+          <p class="names">What is a good password ?</p>
+          <!--<p>Admin</p>-->
+          <p class="lead">
+            a password must be at least 12 characters long (ideally, even 15 characters) and should consist of a seemingly random collection of uppercase and lowercase letters, numbers and special characters, like punctuation.
+          </p>
+        </div>
+        <div class="auth">
+          <img src="1.jpg" alt="" />
+          <p class="names">What are encryption algorithm ?</p>
+          <!--<p>Manager</p>-->
+          <p class="lead">
+            An encryption algorithm is the method used to transform data into ciphertext. An algorithm will use the encryption key in order to alter the data in a predictable way, so that even though the encrypted data will appear random, it can be turned back into plaintext by using the decryption key.
+          </p>
+        </div>
+        <div class="auth">
+          <img src="5.jpg" alt="" />
+          <p class="names">Why password management is neccessary ?</p>
+          <!--<p>Accountant</p>-->
+          <p class="lead">
+            Password Managers are considered to be essential even if it for your personal use or a business. In the recent years with the increase of cyber crimes and various other cyber related activities, it is always wise to choose a password manager.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <div id="contact">
+      <div class="container">
+        <h3><span>Contact Us</span></h3>
+        <div class="contact-form">
+          <form action="process.php">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" name="name" />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" name="name" />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            </div>
+            <button type="button" class="btn">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer id="main-footer">
+      <div class="container">
+        <p>
+          Designed by
+          <a href="file:///C:/Users/Priyansh%20saxena/Desktop/c%20codes/mini%20project/homepage.html"> Encryptozz </a> &copy 2022
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
